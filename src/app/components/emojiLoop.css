@@ -1,0 +1,40 @@
+.loop-row {
+  position: absolute;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  animation: scroll-left linear infinite;
+  pointer-events: none;
+  color: #444;
+  font-weight: 500;
+}
+
+.loop-row span {
+  padding-right: 2rem;
+  display: inline-block;
+  min-width: 100%;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll var(--animation-duration, 20s) linear infinite;
+  animation-direction: var(--animation-direction, forwards);
+}
