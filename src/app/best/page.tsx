@@ -20,12 +20,12 @@ export default function Home() {
       <div className=" mt-auto mb-auto">
        
         <h3 className=' text-black/40 font-serif mt-4 text-xl mb-4 px-6'>
-Discover Why You're the Best
+Discover Why You&apos;re the Best
 Reach out to Raunak Singh for personalized guidance.
 <br /><br />
 +91 74839 01655
 <br /><br />
-He’ll walk you through the entire process with clarity and support.
+He&rsquo;ll walk you through the entire process with clarity and support.
 <a href="https://wa.me/917483901655" className='font-semibold flex flex-row gap-2 mt-4 items-center'> <img       style={{
         height: 20,
         width: 20,
